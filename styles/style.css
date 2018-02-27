@@ -1,0 +1,170 @@
+.container {
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 1px;
+
+    text-align:center;
+}
+
+.header a {
+    padding:10px;
+
+    color:#201f1f;
+
+    font-size:10pt;
+}
+
+.header {
+    position: relative;
+    top: 1;
+    left:-163px;
+
+    width:100%;
+    padding:12px;
+
+    background:#ffffff;
+
+    font-family:arial;
+
+    font-color:#201f1f;
+}
+
+.header-right {
+    float:right;
+}
+
+.login {
+    position: relative;
+    top: -180px;
+    left: 573px;
+
+    clear: both;
+
+    margin: 1px;
+}
+
+.login button {
+    margin:10px;
+    padding: 7px 12px;
+
+    color:#ffffff;
+    border:none;
+    border-radius: 2px;
+    background-color:#4285f4;
+
+    font-family: arial;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.logo {
+    border:1px solid red; background:url(/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+}
+
+#aanbod {
+    position: relative;
+    top: 165px;
+    left: 160px;
+}
+
+input {
+    z-index: 1;
+    position: absolute;
+    top: 307px;
+    left: 509px;
+
+    width:580px;
+    height:40px;
+    margin-bottom:15px;
+
+}
+
+a {
+    text-decoration:none;
+}
+
+p {
+    font-family:arial;
+    font-size:9pt;
+}
+
+.footer a {
+    padding:5px;
+
+    color:#757575;
+
+    font-size:10pt;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:-14px;
+
+    width:100%;
+    padding:12px;
+
+    background:#f2f2f2;
+
+    font-family:arial;
+
+    font-color:#757575;
+}
+
+.footer:after {
+    display: block;
+    clear: both;
+    overflow: hidden;
+
+    height:0;
+
+    content: "";
+}
+
+.footer-left {
+    float:left;
+}
+
+.footer-right {
+    float:right;
+}
+
+.google-logo {
+    position: relative;
+    top: 79px;
+    left: 149px;
+
+    width:270px;
+}
+
+.buttons {
+    margin-bottom:60px;
+}
+
+button {
+    position: relative;
+    top: 147px;
+    right: -148px;
+
+    margin:4px;
+    padding:10px 13px;
+
+    color:#757575;
+    border:none;
+    border-radius: 2px;
+    background-color:#f2f2f2;
+
+    font-family:arial;
+    font-size:10pt;
+    font-weight:bold;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+button:hover {
+    color:black;
+    border: 0px solid #D9D9D9;
+}
